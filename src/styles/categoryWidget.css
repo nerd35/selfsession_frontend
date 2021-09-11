@@ -1,0 +1,33 @@
+.categories-widget{
+}
+
+.categories-widget .categories-div{
+/* 
+    justify-content: space-between; */
+}
+.categories-widget .categories-div .category-widget-link{
+    font-weight: 700;
+}
+.category-widget-link{
+    background-color: #f67280;
+    color: #ffffff;
+    padding: 2px 15px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+    justify-content: space-between;
+}
+.category-widget-test{
+    background-color: #ffffff;
+    color: #333436;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: auto!important;
+    text-decoration: none;
+}

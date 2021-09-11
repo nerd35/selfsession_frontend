@@ -1,0 +1,112 @@
+.newsletter-container{
+    width: 600px;
+    padding: 70px 0px 70px 0px;
+    background-color: #ffffff;
+}
+
+.newsletter-title{
+    margin-bottom: 10px;
+    color: #152035;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+.newsletter-info{
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #506172;
+}
+.newsletter-container .form-section{
+    display: flex;
+}
+.newsletter-container .form-control{
+    height: 45px;
+    background-color: #F9F9FF;
+    border: 0px;
+    padding: 0px 20px;
+    border-radius: 20px 0 0 20px;
+    color: #506172;
+    width: 476.66px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #eee;
+}
+.form-control{
+    
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+}
+.newsletter-container .submit-btn{
+    background-color: #f67280;
+    width: 150px;
+    height: 45px;
+    border-radius: 0 20px 20px 0;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 0px;
+    border: 1px solid #f67280;
+    -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.newsletter-container .newsletter-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-newsletter-container{
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+}
+.mobile-newsletter-container .form-section{
+    display: block;
+    justify-content: center;
+}
+.mobile-newsletter-container .form-control{
+    height: 45px;
+    background-color: #F9F9FF;
+    border: 0px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    color: #506172;
+    width: 100% !important;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #eee;
+}
+.form-control{
+    
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+}
+.mobile-newsletter-container .submit-btn{
+    background-color: #f67280;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 0px;
+    border: 1px solid #f67280;
+    transition: all 0.7s ease-in-out;
+}
+.mobile-newsletter-container .newsletter-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
